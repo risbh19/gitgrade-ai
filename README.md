@@ -43,19 +43,7 @@ The goal is **honest feedback + clear guidance**, not just a number.
 
 ## 🏗️ Project Architecture
 
-gitgrade-ai/
-│
-├── app.py # Main Streamlit application
-├── utils/
-│ ├── github_fetcher.py # GitHub API data collection
-│ ├── scoring.py # Rule-based scoring logic
-│ └── ai_feedback.py # Summary & roadmap generation
-├── assets/
-│ ├── demo2.png.jpeg # Demo screenshot (analysis result)
-│ └── demo.png # Demo screenshot (UI view)
-├── requirements.txt
-├── .gitignore
-└── README.md
+The GitGrade project is organized with a clear and modular structure to ensure readability and maintainability. The main Streamlit application is implemented in app.py, which serves as the entry point and orchestrates the complete analysis workflow. Core logic is separated into a utils module that handles distinct responsibilities: github_fetcher.py is responsible for collecting repository data using the GitHub API, scoring.py applies rule-based evaluation to compute an explainable quality score, and ai_feedback.py generates the professional summary and personalized improvement roadmap. Visual assets used for demonstration purposes are stored in the assets directory, which includes screenshots of the application interface and analysis output. Dependency management is handled through requirements.txt, ignored files and local environments are managed via .gitignore, and the overall project documentation and usage instructions are provided in README.md.
 
 
 ---
