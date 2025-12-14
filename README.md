@@ -30,4 +30,4 @@ streamlit run app.py
 
 Below is a sample evaluation of a GitHub repository using GitGrade:
 
-![GitGrade Demo Screenshot](assets/demo.png) (assests/demo2.png.jpeg)
+![GitGrade Demo Screenshot](assets/demo.png)
